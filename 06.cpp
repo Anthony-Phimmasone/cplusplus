@@ -9,7 +9,6 @@ int max_of_four(int max, int a, int b, int c, int d) {
     }
     else if (b >= a && b >= c && b >= d) {
       max = b;
-
     }
     else if (c >= a && c >= b && c >= d) {
       max = c;
